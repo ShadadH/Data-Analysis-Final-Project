@@ -80,13 +80,9 @@ Collected from the [St. Louis Fed FRED](https://fred.stlouisfed.org/) database, 
 
 ```
 📁 data/
-  └── okun_dataset.csv                # Main dataset (processed or raw)
-📁 figures/
-  ├── regression_results.png         # Summary table
-  ├── residuals_plots.png            # Residual-vs-fitted plots
-  └── VIF_output.png                 # Multicollinearity diagnostics
+  └── okun_dataset.csv                # Main dataset
 📁 scripts/
-  └── final_model_analysis.R         # Clean regression code
+  └── final_model_analysis.do        # Clean regression code
 📄 final_report.pdf                   # Full writeup with results and theory
 📄 README.md                          # Project summary (this file)
 ```
